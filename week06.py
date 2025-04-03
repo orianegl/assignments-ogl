@@ -20,3 +20,6 @@ def repeat (word, number):
 input = "praxis codelab code lab"
 l = input.split(" ")    
 print(repeat(pig_latin(l[0]),10) + " ".join(l[1:]))
+
+
+infile = open('week06/shakespeare.txt', "r")
